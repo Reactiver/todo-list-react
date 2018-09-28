@@ -1,0 +1,19 @@
+.input-add {
+  font-family: 'Pacifico', cursive;
+  margin: 0 auto;
+  width: 90%;
+  height: 40px;
+  border: 1px solid #4711AE;
+  border-radius: 40px;
+  font-size: 30px;
+  font-weight: 200;
+  padding-left: 40px;
+}
+
+input {
+  outline: none;
+}
+
+.btn-add {
+  margin-top: 10px;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&subset=cyrillic');
+
+.field {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label:before {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+input:checked + label::before {
+  content: '';
+}
+
+input:checked + label:after {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  left: 20px;
+  top: 7px;
+  background: url(https://images.all-free-download.com/images/graphiclarge/check_mark_clip_art_11058.jpg) no-repeat;
+  background-size: 100%;
+}
+
+label {
+  margin-left: 10px;
+  width: 100%;
+  cursor: pointer;
+  padding-left: 20px;
+  position: relative;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  color: black;
+}
+
+label:hover {
+  background: #DCDCDC;
+  border-radius: 30px;
+}

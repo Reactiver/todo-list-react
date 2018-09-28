@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+.App {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  background: #FFF;
+}
+
+input {
+  display: block;
+}
+
+h1 {
+  margin: 60px 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+  text-align: center;
+  color: lighten(#000, 60%);
+}
+
+.btn-del {
+  width: 100%;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  background: #fff;
+  outline: none;
+  border: 1px solid #4711AE;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+.btn-del:hover {
+  cursor: pointer;
+}
