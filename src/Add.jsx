@@ -7,7 +7,6 @@ class Add extends React.Component {
     this.input = React.createRef()
     }
 
-    
   state = {
     task: '',
   }
@@ -21,7 +20,7 @@ class Add extends React.Component {
       const id = +new Date();
       const task = this.state.task;
       const item = { id, task };
-      this.props.click(item)
+      this.props.addTask(item)
   
       this.setState({ task: ''})
     }

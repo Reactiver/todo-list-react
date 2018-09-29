@@ -8,9 +8,8 @@ class Task extends React.Component {
 
   onCheckboxClickHandler = e => {
     this.setState({ checked: !this.state.checked }) 
-    const status = !this.state.checked
-    const index = this.props.index
-    this.props.updChecked({status, index})
+    const id = this.props.index
+    this.props.updChecked(id)
   }
 
   render() {
